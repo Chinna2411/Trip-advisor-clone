@@ -16,6 +16,10 @@ body {
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
+     position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
 }
 
 .navbar-title {
@@ -541,3 +545,4 @@ right: 350px;
         display: block;
     }
 }
+
