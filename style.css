@@ -9,18 +9,19 @@ body {
 }
 
 .Container {
-    width: 90%;
+    width: 100%;
     padding: 20px;
     margin: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
-     position: sticky;
+    position: sticky;
     top: 0;
     background-color: white;
     z-index: 1;
 }
+
 
 .navbar-title {
     width: 200px;
@@ -310,6 +311,8 @@ body {
     left: 230px;
     padding: 30px;
     margin-top: 90px;
+  
+    
 }
 .donate-img img{
     width: 20px;
@@ -343,6 +346,7 @@ body {
     border-radius: 20px;
     cursor: pointer;
 }
+
 .hotels-title{
    padding: 10px;
    position: relative;
@@ -545,4 +549,3 @@ right: 350px;
         display: block;
     }
 }
-
